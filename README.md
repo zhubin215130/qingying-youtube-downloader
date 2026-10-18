@@ -2,6 +2,12 @@
 
 简洁的 Windows 桌面 YouTube 视频下载器。粘贴单个视频或 Shorts 链接后，清影会列出视频实际提供的分辨率；如果提供 1440p，会默认选中。下载时可选择保存位置、查看进度并取消任务，程序会自动合并视频与音频。
 
+## 下载与安装
+
+[下载 Windows 安装包 Qingying-Setup-1.0.0.exe](https://github.com/zhubin215130/qingying-youtube-downloader/releases/download/v1.0.0/Qingying-Setup-1.0.0.exe)。适用于 Windows 10/11（64 位）；运行安装包后，从开始菜单打开“清影”。安装包已包含 Python、Node.js 和 FFmpeg 等运行所需组件，无需另外安装。
+
+[查看 v1.0.0 发布说明](https://github.com/zhubin215130/qingying-youtube-downloader/releases/tag/v1.0.0)。安装包 SHA-256：`03DC035797533ACD6990CC61BA5C730218AD1C2445E4C9EE5307D91802847321`。
+
 ## 功能
 
 - 支持普通视频和 Shorts 链接
@@ -41,3 +47,4 @@ py -3.12 -m venv .venv
 清影使用 PySide6、yt-dlp、yt-dlp-ejs、Node.js 和 FFmpeg。随源代码提供的 Noto Sans SC 字体遵循 SIL Open Font License 1.1。第三方许可详见 `THIRD_PARTY.txt` 和 `licenses/`。
 
 `--self-test <output.json> <YouTube URL>` 用于验证打包后的程序能否读取视频信息。
+
