@@ -1,0 +1,26 @@
+# Python and local environments
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Downloaded build dependencies
+bin/
+nsis/
+
+# Build output and local checks
+dist/
+build-cache/
+*.spec
+test-download/
+*smoke*.json
+*invalid*.json
+ui-preview*.png
+
+# Downloaded media and partial files
+*.part
+*.ytdl
+*.mp4
+*.mkv
+*.webm
+*.m4a

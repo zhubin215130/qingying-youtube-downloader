@@ -41,4 +41,3 @@ py -3.12 -m venv .venv
 清影使用 PySide6、yt-dlp、yt-dlp-ejs、Node.js 和 FFmpeg。随源代码提供的 Noto Sans SC 字体遵循 SIL Open Font License 1.1。第三方许可详见 `THIRD_PARTY.txt` 和 `licenses/`。
 
 `--self-test <output.json> <YouTube URL>` 用于验证打包后的程序能否读取视频信息。
-

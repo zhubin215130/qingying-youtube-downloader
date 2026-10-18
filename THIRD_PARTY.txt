@@ -1,0 +1,12 @@
+清影使用以下第三方软件和字体。对应许可文本随安装程序提供在 licenses 文件夹中。
+
+- yt-dlp 2026.8.19 — Unlicense — https://github.com/yt-dlp/yt-dlp
+- yt-dlp-ejs 0.8.0 — Unlicense, ISC, MIT — https://github.com/yt-dlp/ejs
+- PySide6 / Qt 6.12.0 — LGPL 3.0 / GPL / commercial — https://www.qt.io/licensing
+- Node.js 24.19.0 — MIT and third-party terms — https://nodejs.org/
+- FFmpeg 7.1 (imageio-ffmpeg 0.6.0 build) — GPL 3.0 or later — https://ffmpeg.org/download.html
+  Build provenance: https://github.com/imageio/imageio-ffmpeg
+- Noto Sans SC — SIL Open Font License 1.1 — https://github.com/google/fonts/tree/main/ofl/notosanssc
+- NSIS installer system — zlib/libpng license — https://nsis.sourceforge.io/
+
+FFmpeg and Node.js are separate executables in the installed application. Qt libraries are supplied as separate files.
